@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Title } from './components/Title';
 import { TodoInput } from './components/TodoInput';
+import { TodoList } from './components/TodoList';
 
 function App() {
   return (
@@ -9,6 +10,10 @@ function App() {
       <div className='container flex flex-col max-w-xl'>
         <Title />
         <TodoInput />
+        <TodoList>
+          <h2> Todos List</h2>
+          
+        </TodoList>
       </div>
     </div>
   );
