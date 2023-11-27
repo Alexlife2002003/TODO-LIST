@@ -3,6 +3,7 @@ import './App.css';
 import { Title } from './components/Title';
 import { TodoInput } from './components/TodoInput';
 import { TodoList } from './components/TodoList';
+import { Todo } from './components/Todo';
 
 function App() {
   return (
@@ -11,8 +12,12 @@ function App() {
         <Title />
         <TodoInput />
         <TodoList>
-          <h2> Todos List</h2>
-          
+          <Todo/>
+          <Todo/>
+          <Todo/>
+          <Todo/>
+          <Todo/>
+          <Todo/>
         </TodoList>
       </div>
     </div>
