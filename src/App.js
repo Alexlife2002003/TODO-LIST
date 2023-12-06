@@ -8,7 +8,11 @@ import { Todo } from './components/Todo';
 
 function App() {
   const [todos, setTodos] = useState([
-    
+    {
+      id: 1,
+      title: 'Watch the next Marvel Movie',
+      completed: false,
+    },
   ])
 
   const [activeFilter, setActiveFilter] = useState('all');
