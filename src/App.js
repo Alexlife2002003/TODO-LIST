@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import './App.css';
 import { Title } from './components/Title';
 import { TodoInput } from './components/TodoInput';
